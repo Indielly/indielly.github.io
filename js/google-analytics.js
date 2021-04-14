@@ -5,5 +5,5 @@
         m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
 })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-ga('create', 'UA-12345-6', 'auto');
+ga('create', 'G-G6QT1JPXTC', 'auto');
 ga('send', 'pageview', location.pathname);
