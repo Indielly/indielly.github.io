@@ -2,11 +2,15 @@
 <html lang="pt-br">
 
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-  <!-- Google Analytics -->
-  <script src='js/google-analytics.js'>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G6QT1JPXTC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
+    gtag('config', 'G-G6QT1JPXTC');
   </script>
-  <!-- End Google Analytics -->
   <meta charset="UTF-8">
   <title>DP6 Case - Prova Técnica</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -88,11 +92,15 @@
       <h3 id="contato" class="secao-subtitulo">Contato</h3>
       <form class="contato">
         <ul>
-          <li> <label for="nome">Nome</label> <input type="text" id="nome" onchange="handleChange(this)" placeholder="Nome Teste"> </li>
-          <li> <label for="email">E-Mail</label> <input type="email" id="email" onchange="handleChange(this)" placeholder="email@dominio.com"> </li>
-          <li> <label for="telefone">Telefone</label> <input type="tel" id="telefone" onchange="handleChange(this)" placeholder="(11) 4455-4455">
+          <li> <label for="nome">Nome</label> <input type="text" id="nome" onchange="handleChange(this)"
+              placeholder="Nome Teste"> </li>
+          <li> <label for="email">E-Mail</label> <input type="email" id="email" onchange="handleChange(this)"
+              placeholder="email@dominio.com"> </li>
+          <li> <label for="telefone">Telefone</label> <input type="tel" id="telefone" onchange="handleChange(this)"
+              placeholder="(11) 4455-4455">
           </li>
-          <li> <label for="aceito">Aceito que entrem em contato</label> <input type="checkbox" id="aceito" onchange="handleChange(this)"> </li>
+          <li> <label for="aceito">Aceito que entrem em contato</label> <input type="checkbox" id="aceito"
+              onchange="handleChange(this)"> </li>
           <li> <button type="submit">Enviar</button> </li>
         </ul>
       </form><br><br>
